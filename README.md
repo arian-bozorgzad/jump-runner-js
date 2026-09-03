@@ -70,8 +70,7 @@ jump-runner-game/
 │   └── images/
 │       └── favicon.png
 └── README.md
-
-
+```
 The game graphics are created mainly with CSS, so no external game images are required. Sound effects are generated directly in JavaScript using the Web Audio API.
 
 ## How to Run
