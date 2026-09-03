@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jump Runner Game</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="page">
+        <div class="top-bar">
+            <h1>JUMP RUNNER</h1>
+            <button id="soundButton" type="button">Sound: On</button>
+        </div>
+
+        <section id="gameArea" class="game-area" aria-label="Jump Runner game">
+            <div class="cloud cloud1"></div>
+            <div class="cloud cloud2"></div>
+
+            <div class="score-box">
+                Score: <span id="scoreText">00000</span>
+                &nbsp; High: <span id="highScoreText">00000</span>
+            </div>
+            <div id="stateText" class="state-text">Ready</div>
+
+            <div id="obstacleLayer"></div>
+
+            <div id="player" class="player running" aria-label="Player">
+                <div class="player-body"></div>
+                <div class="player-eye"></div>
+                <div class="leg leg1"></div>
+                <div class="leg leg2"></div>
+            </div>
+
+            <div id="groundLine" class="ground"></div>
+
+            <div id="startScreen" class="message-screen">
+                <div class="message-box">
+                    <h2>Jump Runner</h2>
+                    <p>Jump over boxes and duck under birds.</p>
+                    <p><b>Space / Up:</b> Jump</p>
+                    <p><b>Down:</b> Duck</p>
+                    <button id="startButton" type="button">Start Game</button>
+                </div>
+            </div>
+
+            <div id="gameOverScreen" class="message-screen hidden">
+                <div class="message-box small-box">
+                    <h2>Game Over</h2>
+                    <p>Your score: <span id="finalScoreText">0</span></p>
+                    <button id="restartButton" type="button">Restart</button>
+                    <p class="small-text">You can also press R</p>
+                </div>
+            </div>
+        </section>
+
+        <p class="help-text">Jump over ground objects and duck under flying objects.</p>
+    </main>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
