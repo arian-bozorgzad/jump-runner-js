@@ -56,30 +56,21 @@ This project gave me practice with:
 * Rectangle collision detection
 * `localStorage`
 * Web Audio API
-- and getting a good understanding of javascript a language that makes websites interactive. 
+- This project also gave me a better understanding of JavaScript and how it is used to make websites interactive.
 ## Project Structure
 
 ```text
 jump-runner-game/
-│
-│
 ├── index.html
-│
-│
 ├── css/
 │   └── style.css
-│
-│
 ├── js/
 │   └── game.js
-│
-│
 ├── assets/
 │   └── images/
 │       └── favicon.png
-│
 └── README.md
-```
+
 
 The game graphics are created mainly with CSS, so no external game images are required. Sound effects are generated directly in JavaScript using the Web Audio API.
 
@@ -104,7 +95,7 @@ The high score is stored in the browser with `localStorage`, so it remains avail
 
 This project helped me understand front-end development better and showed me how HTML, CSS, and JavaScript work together to create an interactive application.
 
-I also practiced working with animation loops, keyboard input, collision detection, browser storage,DOM manipulation,responsive design, and the Web Audio API.
+I also practiced working with animation loops, keyboard input, collision detection, browser storage, DOM manipulation , responsive design, and the Web Audio API.
 
 ## Future Improvements
 
