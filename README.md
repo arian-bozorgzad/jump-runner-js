@@ -4,6 +4,9 @@ Jump Runner is a small browser-based endless runner game that I created for a we
 
 The player runs automatically and has to jump over ground obstacles and duck under flying birds. The project was built using only HTML, CSS, and vanilla JavaScript, without any external libraries.
 
+## Live Demo
+
+[Play Jump Runner](https://arian-bozorgzad.github.io/jump-runner-js/)
 - Features
 
 * Jump over ground obstacles
