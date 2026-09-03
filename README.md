@@ -56,7 +56,7 @@ This project gave me practice with:
 * Rectangle collision detection
 * `localStorage`
 * Web Audio API
-and getting a good understanding of javascript a language that makes websites interactive. 
+- and getting a good understanding of javascript a language that makes websites interactive. 
 ## Project Structure
 
 ```text
